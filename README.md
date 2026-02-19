@@ -40,6 +40,6 @@ Then open http://localhost:3000. **Do not** open `dist/index.html` directly in t
 - `index.html` — Main page
 - `index.js` — Entry point (scroll reveal, tilt effects)
 - `styles.scss` / `sass/` — Styles
-- `assets/` — Images, resume, favicon
+- `assets/` — Images, resume, favicon. Add `hero-bg.jpg` for an optional hero section background.
 - `scripts/` — Animation scripts
 - `data/` — ScrollReveal config

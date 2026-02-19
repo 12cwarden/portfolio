@@ -58,9 +58,44 @@ export const targetElements = [
     },
   },
   {
+    element: ".experience-wrapper",
+    animation: {
+      delay: 400,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".experience-item",
+    animation: {
+      delay: 300,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".skills-wrapper",
+    animation: {
+      delay: 400,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".certifications-wrapper",
+    animation: {
+      delay: 400,
+      origin: "bottom",
+    },
+  },
+  {
     element: ".contact-wrapper",
     animation: {
       delay: 800,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".projects-intro",
+    animation: {
+      delay: 300,
       origin: "bottom",
     },
   },

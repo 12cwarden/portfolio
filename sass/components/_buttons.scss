@@ -89,6 +89,23 @@
   }
 }
 
+/* Outline variant for secondary CTA */
+.cta-btn--outline {
+  background: transparent !important;
+  border: 2px solid $primary-color;
+  color: $primary-color !important;
+  -webkit-text-fill-color: $primary-color !important;
+
+  &::after {
+    background: $primary-color !important;
+  }
+
+  &:hover {
+    color: $white-color !important;
+    -webkit-text-fill-color: $white-color !important;
+  }
+}
+
 /* Arrow Button */
 .up i {
   color: #272727;

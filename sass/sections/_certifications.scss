@@ -1,0 +1,30 @@
+#certifications {
+  background-color: $white-color;
+  color: $dark-blue-text;
+  padding: 8rem 0;
+
+  @include respond(tab-land) {
+    padding: 5rem 0;
+  }
+
+  .certifications-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cert-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    i {
+      color: $primary-color;
+      font-size: 2rem;
+    }
+  }
+}

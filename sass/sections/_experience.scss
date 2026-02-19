@@ -1,0 +1,68 @@
+#experience {
+  background-color: $white-color;
+  color: $dark-blue-text;
+  padding: 10rem 0;
+
+  @include respond(tab-land) {
+    padding: 6rem 0;
+  }
+
+  .experience-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .experience-item {
+    margin-bottom: 4rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid $light-grey;
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    &__header {
+      margin-bottom: 1.5rem;
+
+      h3 {
+        font-size: $mid-font-size;
+        font-weight: 700;
+        margin-bottom: 0.3rem;
+        color: $dark-blue-text;
+      }
+
+      .experience-item__company {
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $primary-color;
+        margin-bottom: 0.2rem;
+      }
+
+      .experience-item__date {
+        font-size: 1.4rem;
+        color: $medium-grey;
+      }
+    }
+
+    &__bullets {
+      margin: 0 0 1rem 0;
+      padding-left: 2rem;
+      font-size: 1.5rem;
+      line-height: 1.7;
+
+      li {
+        margin-bottom: 0.6rem;
+      }
+    }
+
+    &__skills {
+      display: inline-block;
+      font-size: 1.3rem;
+      color: $medium-grey;
+      font-style: italic;
+    }
+  }
+}
