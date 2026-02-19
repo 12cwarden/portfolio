@@ -17,6 +17,16 @@ npm run build
 
 The build uses `--public-url ./` so assets work correctly when deployed to a subpath (e.g. `username.github.io/portfolio/`).
 
+## Preview the built site locally
+
+After building, you can preview the production build with:
+
+```bash
+npm run preview
+```
+
+Then open http://localhost:3000. **Do not** open `dist/index.html` directly in the browser (file://) — CSS and JS won't load correctly. Use `npm start` for development or `npm run preview` after building.
+
 ## Deploy to GitHub Pages
 
 1. In your repo: **Settings → Pages**

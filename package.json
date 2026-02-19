@@ -6,7 +6,8 @@
   "source": "./index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --public-url ./"
+    "build": "parcel build --public-url ./",
+    "preview": "npx serve dist"
   },
   "author": "Cory Warden",
   "license": "ISC",
