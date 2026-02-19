@@ -1,0 +1,33 @@
+# Portfolio
+
+Personal developer portfolio for Cory Warden. Built with Parcel, Bootstrap 5, and vanilla JavaScript.
+
+## Setup
+
+```bash
+npm install
+npm start
+```
+
+## Build for GitHub Pages
+
+```bash
+npm run build
+```
+
+The build uses `--public-url ./` so assets work correctly when deployed to a subpath (e.g. `username.github.io/portfolio/`).
+
+## Deploy to GitHub Pages
+
+1. In your repo: **Settings → Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Push to `main` — the workflow in `.github/workflows/deploy.yml` will build and deploy automatically
+
+## Project Structure
+
+- `index.html` — Main page
+- `index.js` — Entry point (scroll reveal, tilt effects)
+- `styles.scss` / `sass/` — Styles
+- `assets/` — Images, resume, favicon
+- `scripts/` — Animation scripts
+- `data/` — ScrollReveal config

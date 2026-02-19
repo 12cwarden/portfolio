@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
 
 h1 {
   font-weight: 700;
@@ -6,7 +6,7 @@ h1 {
 
 p,
 a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
   font-size: $default-font-size;
 }
 
@@ -26,8 +26,8 @@ a:hover {
   margin: 0px;
   margin-bottom: 4.5rem;
   font-size: $big-font-size;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 
   @include respond(phone) {
     font-size: 2.8rem;

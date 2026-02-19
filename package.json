@@ -1,24 +1,15 @@
 {
-  "name": "simplefolio",
-  "version": "1.0.1",
-  "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "name": "portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Cory Warden | Developer Portfolio",
   "source": "./index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --public-url ./"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
-  },
-  "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Cory Warden",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
-  },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.4",
     "parcel": "^2.16.4",
@@ -27,8 +18,7 @@
   "dependencies": {
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1",
+    "scrollreveal": "^4.0.9",
     "vanilla-tilt": "^1.7.2"
   }
 }
