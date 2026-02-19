@@ -9,6 +9,8 @@ npm install
 npm start
 ```
 
+**Windows users:** If you see `ENOENT: no such file or directory, unlink` errors (a known Parcel bug on Windows), run `npm run clean` then `npm start` again. Or use `npm run clean:start` to clear the cache and start in one step.
+
 ## Build for GitHub Pages
 
 ```bash
